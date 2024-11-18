@@ -1,5 +1,6 @@
 # Laboratorio de Implementación I - Problema #10 - Grupo A
- 
+## Miembros: Carlos Maslaton - Mariano Maslaton
+
 ## Instrucciones para ejecutar el workflow y los experimentos
 Este repositorio contiene los scripts necesarios para ejecutar el workflow base y los experimentos asociados.
 
