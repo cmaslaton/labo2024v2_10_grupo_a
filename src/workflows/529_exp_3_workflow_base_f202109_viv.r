@@ -361,15 +361,15 @@ HT_tuning_base <- function( pinputexps, bo_iteraciones, bypass=FALSE)
     skip_drop = 0.5, # 0.0 <= skip_drop <= 1.0
 
     extra_trees = FALSE,
-
+    
+    # Parte variable
     learning_rate = c( 0.02, 0.3 ),
     feature_fraction = c( 0.5, 0.9 ),
     num_leaves = c( 8L, 2048L,  "integer" ),
     min_data_in_leaf = c( 100L, 10000L, "integer" ),
     
-    # Parte variable
     neg_bagging_fraction = c(0.2, 0.5), # 0.0 < neg_bagging_fraction <= 1.0
-    scale_pos_weight = c(30, 70), # scale_pos_weight > 0.0
+    scale_pos_weight = c(30, 70) # scale_pos_weight > 0.0
   )
 
 
